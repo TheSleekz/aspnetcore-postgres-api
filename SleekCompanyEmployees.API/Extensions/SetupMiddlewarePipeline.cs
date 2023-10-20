@@ -58,7 +58,7 @@ public static class SetupMiddlewarePipeline
         app.UseAuthentication();
         app.UseAuthorization();
 
-
+        //Add controller endpoint
         app.MapControllers();
 
         return app;

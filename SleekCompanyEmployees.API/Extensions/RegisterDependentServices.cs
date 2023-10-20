@@ -17,7 +17,7 @@ public static class RegisterDependentServices
     .Services.BuildServiceProvider()
     .GetRequiredService<IOptions<MvcOptions>>().Value.InputFormatters
     .OfType<NewtonsoftJsonPatchInputFormatter>().First();
-
+    //Custom service
     public static WebApplicationBuilder RegisterServices(this WebApplicationBuilder builder)
     {
         // Register your dependencies
