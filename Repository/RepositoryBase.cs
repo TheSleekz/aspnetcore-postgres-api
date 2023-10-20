@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
 namespace Repository;
-
+//line of code
 public class RepositoryBase<T> : IRepositoryBase<T> where T : class
 {
 	protected RepositoryContext RepositoryContext;
