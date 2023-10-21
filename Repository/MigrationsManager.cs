@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+///kovndsjndfjnfsknfsf
 namespace Repository
 {
     public static class MigrationsManager
