@@ -14,5 +14,7 @@ WORKDIR /publish
 COPY --from=build-image /publish .
 ENV ASPNETCORE_URLS=http://+:5005
 ENTRYPOINT ["dotnet", "SleekCompanyEmployees.API.dll"]
-#........
+#1111111111
+
+
 
