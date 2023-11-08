@@ -6,6 +6,7 @@ namespace Tests;
 
 public class CompanyRepositoryTests
 {
+    //xunit test
     [Fact]
     public void GetAllCompaniesAsync_ReturnsListOfCompanies_WithASingleCompany()
     {
