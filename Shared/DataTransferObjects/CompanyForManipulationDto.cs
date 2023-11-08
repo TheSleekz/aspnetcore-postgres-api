@@ -11,6 +11,6 @@ public abstract record CompanyForManipulationDto
 	[Required(ErrorMessage = "Company address is a required field.")]
 	[MaxLength(60, ErrorMessage = "Maximum length for the Address is 60 characters.")]
 	public string? Address { get; init; }
-
+	//country
 	public string? Country { get; init; }
 }
